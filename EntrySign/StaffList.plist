@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FirstName</key>
+		<string>Mathew</string>
+		<key>Surname</key>
+		<string>Booth</string>
+		<key>JobDescription</key>
+		<string>Monkey</string>
+		<key>Pin</key>
+		<string>0000</string>
+		<key>Status</key>
+		<string>In</string>
+		<key>Archived</key>
+		<false/>
+		<key>Staff</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>FirstName</key>
+		<string>John</string>
+		<key>Surname</key>
+		<string>Wan</string>
+		<key>JobDescription</key>
+		<string>Teacher</string>
+		<key>Pin</key>
+		<string>0000</string>
+		<key>Status</key>
+		<string>Out</string>
+		<key>Archived</key>
+		<false/>
+		<key>Staff</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>FirstName</key>
+		<string>Chris</string>
+		<key>Surname</key>
+		<string>Rampling</string>
+		<key>JobDescription</key>
+		<string>care worker</string>
+		<key>Pin</key>
+		<string>0000</string>
+		<key>Status</key>
+		<string>In</string>
+		<key>Archived</key>
+		<false/>
+		<key>Staff</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>FirstName</key>
+		<string>martin</string>
+		<key>Surname</key>
+		<string>blog</string>
+		<key>JobDescription</key>
+		<string>Helper</string>
+		<key>Pin</key>
+		<string>0000</string>
+		<key>Status</key>
+		<string>Out</string>
+		<key>Archived</key>
+		<false/>
+		<key>Staff</key>
+		<false/>
+	</dict>
+</array>
+</plist>

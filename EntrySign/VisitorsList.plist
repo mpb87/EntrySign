@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Mathew Booth</string>
+		<key>Company</key>
+		<string>Osborne Technologies</string>
+		<key>VehicleReg</key>
+		<string>YR55 JKF</string>
+		<key>Visiting</key>
+		<string>Entry Sign</string>
+		<key>TimeOut</key>
+		<date>2011-07-05T12:55:13Z</date>
+		<key>TimeIn</key>
+		<date>2011-07-05T12:55:44Z</date>
+		<key>CRB</key>
+		<false/>
+		<key>SignedIn</key>
+		<true/>
+		<key>Departed</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>John Smith</string>
+		<key>Company</key>
+		<string>Osborne Technologies</string>
+		<key>VehicleReg</key>
+		<string>YR05 JNS</string>
+		<key>Visiting</key>
+		<string>Tom Osborne</string>
+		<key>TimeOut</key>
+		<date>2011-07-05T12:55:13Z</date>
+		<key>TimeIn</key>
+		<date>2011-07-05T12:55:44Z</date>
+		<key>CRB</key>
+		<false/>
+		<key>SignedIn</key>
+		<false/>
+		<key>Departed</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Louis harwood</string>
+		<key>Company</key>
+		<string>avalore</string>
+		<key>VehicleReg</key>
+		<string>M227 gew</string>
+		<key>Visiting</key>
+		<string>Entry Sign</string>
+		<key>TimeOut</key>
+		<date>2011-07-05T12:55:13Z</date>
+		<key>TimeIn</key>
+		<date>2011-07-05T12:55:44Z</date>
+		<key>CRB</key>
+		<false/>
+		<key>SignedIn</key>
+		<false/>
+		<key>Departed</key>
+		<false/>
+	</dict>
+</array>
+</plist>

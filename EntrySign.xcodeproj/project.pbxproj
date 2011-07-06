@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14E7D3313C466CB00F519C0 /* PolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D3113C466CB00F519C0 /* PolicyViewController.m */; };
+		E14E7D3413C466CB00F519C0 /* PolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D3213C466CB00F519C0 /* PolicyViewController.xib */; };
+		E14E7D3813C4677600F519C0 /* PreBookedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D3613C4677600F519C0 /* PreBookedViewController.m */; };
+		E14E7D3913C4677600F519C0 /* PreBookedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D3713C4677600F519C0 /* PreBookedViewController.xib */; };
+		E14E7D3D13C4679E00F519C0 /* VisitorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D3B13C4679E00F519C0 /* VisitorInfoViewController.m */; };
+		E14E7D3E13C4679E00F519C0 /* VisitorInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D3C13C4679E00F519C0 /* VisitorInfoViewController.xib */; };
+		E14E7D4213C475D600F519C0 /* ThankYoucontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D4013C475D600F519C0 /* ThankYoucontroller.m */; };
+		E14E7D4313C475D600F519C0 /* ThankYoucontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D4113C475D600F519C0 /* ThankYoucontroller.xib */; };
+		E14E7D4513C4B14500F519C0 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D4413C4B14500F519C0 /* whiteButton.png */; };
+		E14E7D4713C4B8C500F519C0 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D4613C4B8C500F519C0 /* 53-house.png */; };
+		E181C45E13C2FDC50085A64C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181C45D13C2FDC50085A64C /* UIKit.framework */; };
+		E181C46013C2FDC50085A64C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181C45F13C2FDC50085A64C /* Foundation.framework */; };
+		E181C46213C2FDC50085A64C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181C46113C2FDC50085A64C /* CoreGraphics.framework */; };
+		E181C46813C2FDC50085A64C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E181C46613C2FDC50085A64C /* InfoPlist.strings */; };
+		E181C46B13C2FDC50085A64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C46A13C2FDC50085A64C /* main.m */; };
+		E181C46E13C2FDC50085A64C /* EntrySignAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C46D13C2FDC50085A64C /* EntrySignAppDelegate.m */; };
+		E181C47113C2FDC60085A64C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181C46F13C2FDC60085A64C /* MainWindow.xib */; };
+		E181C47413C2FDC60085A64C /* EntrySignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C47313C2FDC60085A64C /* EntrySignViewController.m */; };
+		E181C47713C2FDC60085A64C /* EntrySignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181C47513C2FDC60085A64C /* EntrySignViewController.xib */; };
+		E181C48113C300C40085A64C /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C47F13C300C40085A64C /* DetailsViewController.m */; };
+		E181C48213C300C40085A64C /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181C48013C300C40085A64C /* DetailsViewController.xib */; };
+		E181C48613C300F50085A64C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C48413C300F50085A64C /* MasterViewController.m */; };
+		E181C48713C300F50085A64C /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181C48513C300F50085A64C /* MasterViewController.xib */; };
+		E181C48A13C3015A0085A64C /* AdminController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C48913C3015A0085A64C /* AdminController.m */; };
+		E181C4BD13C30B7B0085A64C /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4BC13C30B7B0085A64C /* 157-wrench.png */; };
+		E181C4BF13C30B9C0085A64C /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4BE13C30B9C0085A64C /* 111-user.png */; };
+		E181C4CB13C328F00085A64C /* AlertPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C4CA13C328F00085A64C /* AlertPrompt.m */; };
+		E181C4CD13C3380D0085A64C /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4CC13C3380D0085A64C /* 112-group.png */; };
+		E181C4CF13C338D20085A64C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4CE13C338D20085A64C /* 76-baby.png */; };
+		E181C4D113C339640085A64C /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4D013C339640085A64C /* 63-runner.png */; };
+		E181C4D313C33A5D0085A64C /* 1309868733_user6.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4D213C33A5D0085A64C /* 1309868733_user6.png */; };
+		E181C4D513C33B050085A64C /* backgroundTile.png in Resources */ = {isa = PBXBuildFile; fileRef = E181C4D413C33B050085A64C /* backgroundTile.png */; };
+		E181C4D913C33F4E0085A64C /* VisitorsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E181C4D813C33F4E0085A64C /* VisitorsList.plist */; };
+		E181C4DD13C3422D0085A64C /* VisitorsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181C4DB13C3422D0085A64C /* VisitorsListController.m */; };
+		E181C4DE13C3422D0085A64C /* VisitorsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181C4DC13C3422D0085A64C /* VisitorsListController.xib */; };
+		E181C4E013C356090085A64C /* StaffList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E181C4DF13C356090085A64C /* StaffList.plist */; };
+		E181C4E413C36B790085A64C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181C4E313C36B790085A64C /* QuartzCore.framework */; };
+		E1A6881613C3A4C0000109C1 /* PrebookedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6881413C3A4C0000109C1 /* PrebookedController.m */; };
+		E1A6881713C3A4C0000109C1 /* PrebookedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A6881513C3A4C0000109C1 /* PrebookedController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E14E7D3013C466CB00F519C0 /* PolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyViewController.h; sourceTree = "<group>"; };
+		E14E7D3113C466CB00F519C0 /* PolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyViewController.m; sourceTree = "<group>"; };
+		E14E7D3213C466CB00F519C0 /* PolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolicyViewController.xib; sourceTree = "<group>"; };
+		E14E7D3513C4677600F519C0 /* PreBookedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreBookedViewController.h; sourceTree = "<group>"; };
+		E14E7D3613C4677600F519C0 /* PreBookedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreBookedViewController.m; sourceTree = "<group>"; };
+		E14E7D3713C4677600F519C0 /* PreBookedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreBookedViewController.xib; sourceTree = "<group>"; };
+		E14E7D3A13C4679E00F519C0 /* VisitorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorInfoViewController.h; sourceTree = "<group>"; };
+		E14E7D3B13C4679E00F519C0 /* VisitorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorInfoViewController.m; sourceTree = "<group>"; };
+		E14E7D3C13C4679E00F519C0 /* VisitorInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorInfoViewController.xib; sourceTree = "<group>"; };
+		E14E7D3F13C475D600F519C0 /* ThankYoucontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThankYoucontroller.h; sourceTree = "<group>"; };
+		E14E7D4013C475D600F519C0 /* ThankYoucontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThankYoucontroller.m; sourceTree = "<group>"; };
+		E14E7D4113C475D600F519C0 /* ThankYoucontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThankYoucontroller.xib; sourceTree = "<group>"; };
+		E14E7D4413C4B14500F519C0 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		E14E7D4613C4B8C500F519C0 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
+		E181C45913C2FDC50085A64C /* EntrySign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntrySign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181C45D13C2FDC50085A64C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E181C45F13C2FDC50085A64C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E181C46113C2FDC50085A64C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E181C46513C2FDC50085A64C /* EntrySign-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EntrySign-Info.plist"; sourceTree = "<group>"; };
+		E181C46713C2FDC50085A64C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E181C46913C2FDC50085A64C /* EntrySign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EntrySign-Prefix.pch"; sourceTree = "<group>"; };
+		E181C46A13C2FDC50085A64C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E181C46C13C2FDC50085A64C /* EntrySignAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntrySignAppDelegate.h; sourceTree = "<group>"; };
+		E181C46D13C2FDC50085A64C /* EntrySignAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrySignAppDelegate.m; sourceTree = "<group>"; };
+		E181C47013C2FDC60085A64C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E181C47213C2FDC60085A64C /* EntrySignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntrySignViewController.h; sourceTree = "<group>"; };
+		E181C47313C2FDC60085A64C /* EntrySignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntrySignViewController.m; sourceTree = "<group>"; };
+		E181C47613C2FDC60085A64C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EntrySignViewController.xib; sourceTree = "<group>"; };
+		E181C47E13C300C40085A64C /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		E181C47F13C300C40085A64C /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		E181C48013C300C40085A64C /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		E181C48313C300F50085A64C /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E181C48413C300F50085A64C /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E181C48513C300F50085A64C /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		E181C48813C3015A0085A64C /* AdminController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminController.h; sourceTree = "<group>"; };
+		E181C48913C3015A0085A64C /* AdminController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminController.m; sourceTree = "<group>"; };
+		E181C4BC13C30B7B0085A64C /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
+		E181C4BE13C30B9C0085A64C /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		E181C4C913C328F00085A64C /* AlertPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertPrompt.h; sourceTree = "<group>"; };
+		E181C4CA13C328F00085A64C /* AlertPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertPrompt.m; sourceTree = "<group>"; };
+		E181C4CC13C3380D0085A64C /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		E181C4CE13C338D20085A64C /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
+		E181C4D013C339640085A64C /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		E181C4D213C33A5D0085A64C /* 1309868733_user6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1309868733_user6.png; sourceTree = "<group>"; };
+		E181C4D413C33B050085A64C /* backgroundTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundTile.png; sourceTree = "<group>"; };
+		E181C4D813C33F4E0085A64C /* VisitorsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VisitorsList.plist; sourceTree = "<group>"; };
+		E181C4DA13C3422D0085A64C /* VisitorsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorsListController.h; sourceTree = "<group>"; };
+		E181C4DB13C3422D0085A64C /* VisitorsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorsListController.m; sourceTree = "<group>"; };
+		E181C4DC13C3422D0085A64C /* VisitorsListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorsListController.xib; sourceTree = "<group>"; };
+		E181C4DF13C356090085A64C /* StaffList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StaffList.plist; sourceTree = "<group>"; };
+		E181C4E113C368F70085A64C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E181C4E313C36B790085A64C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1A6881313C3A4C0000109C1 /* PrebookedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrebookedController.h; sourceTree = "<group>"; };
+		E1A6881413C3A4C0000109C1 /* PrebookedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrebookedController.m; sourceTree = "<group>"; };
+		E1A6881513C3A4C0000109C1 /* PrebookedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrebookedController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E181C45613C2FDC50085A64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181C45E13C2FDC50085A64C /* UIKit.framework in Frameworks */,
+				E181C46013C2FDC50085A64C /* Foundation.framework in Frameworks */,
+				E181C46213C2FDC50085A64C /* CoreGraphics.framework in Frameworks */,
+				E181C4E413C36B790085A64C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14E7D2E13C4669000F519C0 /* VisitorSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				E14E7D3013C466CB00F519C0 /* PolicyViewController.h */,
+				E14E7D3113C466CB00F519C0 /* PolicyViewController.m */,
+				E14E7D3213C466CB00F519C0 /* PolicyViewController.xib */,
+				E14E7D3513C4677600F519C0 /* PreBookedViewController.h */,
+				E14E7D3613C4677600F519C0 /* PreBookedViewController.m */,
+				E14E7D3713C4677600F519C0 /* PreBookedViewController.xib */,
+				E14E7D3A13C4679E00F519C0 /* VisitorInfoViewController.h */,
+				E14E7D3B13C4679E00F519C0 /* VisitorInfoViewController.m */,
+				E14E7D3C13C4679E00F519C0 /* VisitorInfoViewController.xib */,
+				E14E7D3F13C475D600F519C0 /* ThankYoucontroller.h */,
+				E14E7D4013C475D600F519C0 /* ThankYoucontroller.m */,
+				E14E7D4113C475D600F519C0 /* ThankYoucontroller.xib */,
+			);
+			name = VisitorSignIn;
+			sourceTree = "<group>";
+		};
+		E181C44E13C2FDC50085A64C = {
+			isa = PBXGroup;
+			children = (
+				E14E7D2E13C4669000F519C0 /* VisitorSignIn */,
+				E181C4E313C36B790085A64C /* QuartzCore.framework */,
+				E181C4C813C328AB0085A64C /* utils */,
+				E181C47D13C300590085A64C /* Admin */,
+				E181C46313C2FDC50085A64C /* EntrySign */,
+				E181C45C13C2FDC50085A64C /* Frameworks */,
+				E181C45A13C2FDC50085A64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E181C45A13C2FDC50085A64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E181C45913C2FDC50085A64C /* EntrySign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E181C45C13C2FDC50085A64C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E181C4E113C368F70085A64C /* QuartzCore.framework */,
+				E181C45D13C2FDC50085A64C /* UIKit.framework */,
+				E181C45F13C2FDC50085A64C /* Foundation.framework */,
+				E181C46113C2FDC50085A64C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E181C46313C2FDC50085A64C /* EntrySign */ = {
+			isa = PBXGroup;
+			children = (
+				E181C46C13C2FDC50085A64C /* EntrySignAppDelegate.h */,
+				E181C46D13C2FDC50085A64C /* EntrySignAppDelegate.m */,
+				E181C46F13C2FDC60085A64C /* MainWindow.xib */,
+				E181C47213C2FDC60085A64C /* EntrySignViewController.h */,
+				E181C47313C2FDC60085A64C /* EntrySignViewController.m */,
+				E181C47513C2FDC60085A64C /* EntrySignViewController.xib */,
+				E181C46413C2FDC50085A64C /* Supporting Files */,
+			);
+			path = EntrySign;
+			sourceTree = "<group>";
+		};
+		E181C46413C2FDC50085A64C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E181C4BB13C30B220085A64C /* Images */,
+				E181C46513C2FDC50085A64C /* EntrySign-Info.plist */,
+				E181C46613C2FDC50085A64C /* InfoPlist.strings */,
+				E181C46913C2FDC50085A64C /* EntrySign-Prefix.pch */,
+				E181C46A13C2FDC50085A64C /* main.m */,
+				E181C4D813C33F4E0085A64C /* VisitorsList.plist */,
+				E181C4DF13C356090085A64C /* StaffList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E181C47D13C300590085A64C /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				E181C47E13C300C40085A64C /* DetailsViewController.h */,
+				E181C47F13C300C40085A64C /* DetailsViewController.m */,
+				E181C48013C300C40085A64C /* DetailsViewController.xib */,
+				E181C48313C300F50085A64C /* MasterViewController.h */,
+				E181C48413C300F50085A64C /* MasterViewController.m */,
+				E181C48513C300F50085A64C /* MasterViewController.xib */,
+				E181C48813C3015A0085A64C /* AdminController.h */,
+				E181C48913C3015A0085A64C /* AdminController.m */,
+				E181C4DA13C3422D0085A64C /* VisitorsListController.h */,
+				E181C4DB13C3422D0085A64C /* VisitorsListController.m */,
+				E181C4DC13C3422D0085A64C /* VisitorsListController.xib */,
+				E1A6881313C3A4C0000109C1 /* PrebookedController.h */,
+				E1A6881413C3A4C0000109C1 /* PrebookedController.m */,
+				E1A6881513C3A4C0000109C1 /* PrebookedController.xib */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
+		E181C4BB13C30B220085A64C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E14E7D4613C4B8C500F519C0 /* 53-house.png */,
+				E14E7D4413C4B14500F519C0 /* whiteButton.png */,
+				E181C4D413C33B050085A64C /* backgroundTile.png */,
+				E181C4D213C33A5D0085A64C /* 1309868733_user6.png */,
+				E181C4D013C339640085A64C /* 63-runner.png */,
+				E181C4CE13C338D20085A64C /* 76-baby.png */,
+				E181C4CC13C3380D0085A64C /* 112-group.png */,
+				E181C4BE13C30B9C0085A64C /* 111-user.png */,
+				E181C4BC13C30B7B0085A64C /* 157-wrench.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E181C4C813C328AB0085A64C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E181C4C913C328F00085A64C /* AlertPrompt.h */,
+				E181C4CA13C328F00085A64C /* AlertPrompt.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E181C45813C2FDC50085A64C /* EntrySign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E181C47A13C2FDC60085A64C /* Build configuration list for PBXNativeTarget "EntrySign" */;
+			buildPhases = (
+				E181C45513C2FDC50085A64C /* Sources */,
+				E181C45613C2FDC50085A64C /* Frameworks */,
+				E181C45713C2FDC50085A64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EntrySign;
+			productName = EntrySign;
+			productReference = E181C45913C2FDC50085A64C /* EntrySign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E181C45013C2FDC50085A64C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E181C45313C2FDC50085A64C /* Build configuration list for PBXProject "EntrySign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E181C44E13C2FDC50085A64C;
+			productRefGroup = E181C45A13C2FDC50085A64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E181C45813C2FDC50085A64C /* EntrySign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E181C45713C2FDC50085A64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181C46813C2FDC50085A64C /* InfoPlist.strings in Resources */,
+				E181C47113C2FDC60085A64C /* MainWindow.xib in Resources */,
+				E181C47713C2FDC60085A64C /* EntrySignViewController.xib in Resources */,
+				E181C48213C300C40085A64C /* DetailsViewController.xib in Resources */,
+				E181C48713C300F50085A64C /* MasterViewController.xib in Resources */,
+				E181C4BD13C30B7B0085A64C /* 157-wrench.png in Resources */,
+				E181C4BF13C30B9C0085A64C /* 111-user.png in Resources */,
+				E181C4CD13C3380D0085A64C /* 112-group.png in Resources */,
+				E181C4CF13C338D20085A64C /* 76-baby.png in Resources */,
+				E181C4D113C339640085A64C /* 63-runner.png in Resources */,
+				E181C4D313C33A5D0085A64C /* 1309868733_user6.png in Resources */,
+				E181C4D513C33B050085A64C /* backgroundTile.png in Resources */,
+				E181C4D913C33F4E0085A64C /* VisitorsList.plist in Resources */,
+				E181C4DE13C3422D0085A64C /* VisitorsListController.xib in Resources */,
+				E181C4E013C356090085A64C /* StaffList.plist in Resources */,
+				E1A6881713C3A4C0000109C1 /* PrebookedController.xib in Resources */,
+				E14E7D3413C466CB00F519C0 /* PolicyViewController.xib in Resources */,
+				E14E7D3913C4677600F519C0 /* PreBookedViewController.xib in Resources */,
+				E14E7D3E13C4679E00F519C0 /* VisitorInfoViewController.xib in Resources */,
+				E14E7D4313C475D600F519C0 /* ThankYoucontroller.xib in Resources */,
+				E14E7D4513C4B14500F519C0 /* whiteButton.png in Resources */,
+				E14E7D4713C4B8C500F519C0 /* 53-house.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E181C45513C2FDC50085A64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181C46B13C2FDC50085A64C /* main.m in Sources */,
+				E181C46E13C2FDC50085A64C /* EntrySignAppDelegate.m in Sources */,
+				E181C47413C2FDC60085A64C /* EntrySignViewController.m in Sources */,
+				E181C48113C300C40085A64C /* DetailsViewController.m in Sources */,
+				E181C48613C300F50085A64C /* MasterViewController.m in Sources */,
+				E181C48A13C3015A0085A64C /* AdminController.m in Sources */,
+				E181C4CB13C328F00085A64C /* AlertPrompt.m in Sources */,
+				E181C4DD13C3422D0085A64C /* VisitorsListController.m in Sources */,
+				E1A6881613C3A4C0000109C1 /* PrebookedController.m in Sources */,
+				E14E7D3313C466CB00F519C0 /* PolicyViewController.m in Sources */,
+				E14E7D3813C4677600F519C0 /* PreBookedViewController.m in Sources */,
+				E14E7D3D13C4679E00F519C0 /* VisitorInfoViewController.m in Sources */,
+				E14E7D4213C475D600F519C0 /* ThankYoucontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E181C46613C2FDC50085A64C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E181C46713C2FDC50085A64C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E181C46F13C2FDC60085A64C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E181C47013C2FDC60085A64C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E181C47513C2FDC60085A64C /* EntrySignViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E181C47613C2FDC60085A64C /* en */,
+			);
+			name = EntrySignViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E181C47813C2FDC60085A64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E181C47913C2FDC60085A64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E181C47B13C2FDC60085A64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EntrySign/EntrySign-Prefix.pch";
+				INFOPLIST_FILE = "EntrySign/EntrySign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E181C47C13C2FDC60085A64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EntrySign/EntrySign-Prefix.pch";
+				INFOPLIST_FILE = "EntrySign/EntrySign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E181C45313C2FDC50085A64C /* Build configuration list for PBXProject "EntrySign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181C47813C2FDC60085A64C /* Debug */,
+				E181C47913C2FDC60085A64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E181C47A13C2FDC60085A64C /* Build configuration list for PBXNativeTarget "EntrySign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181C47B13C2FDC60085A64C /* Debug */,
+				E181C47C13C2FDC60085A64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E181C45013C2FDC50085A64C /* Project object */;
+}
