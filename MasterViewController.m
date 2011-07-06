@@ -63,6 +63,7 @@
     
     self.tableView.backgroundColor = [UIColor clearColor];
     self.view.backgroundColor = [UIColor lightGrayColor];
+    NSLog(@"test");
 
 }
 
