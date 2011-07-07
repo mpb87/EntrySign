@@ -111,7 +111,20 @@
     CATransition *animationPolicy = [CATransition animation];
     [animationPolicy setDuration:0.5];
     [animationPolicy setType:kCATransitionPush];
-    [animationPolicy setSubtype:kCATransitionFromRight];
+    
+    if ([[UIApplication sharedApplication] statusBarOrientation] == UIDeviceOrientationLandscapeLeft) {
+        [animationPolicy setSubtype:kCATransitionFromRight];
+    } else if ([[UIApplication sharedApplication] statusBarOrientation] == UIDeviceOrientationLandscapeRight) {
+        [animationPolicy setSubtype:kCATransitionFromLeft];
+    }
+    else if ([[UIApplication sharedApplication] statusBarOrientation] == UIDeviceOrientationPortrait){
+        [animationPolicy setSubtype:kCATransitionFromLeft];
+    }
+    else
+    {
+        [animationPolicy setSubtype:kCATransitionFromBottom];
+    }
+    
     [animationPolicy setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
     
     [[window layer] addAnimation:animationPolicy forKey:@"policyAnimation"];
@@ -127,7 +140,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    return YES;
+    //return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 @end

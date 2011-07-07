@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E121C9F213C5A93C00059F09 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E121C9F013C5A93C00059F09 /* SignatureViewController.m */; };
+		E121C9F313C5A93C00059F09 /* SignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E121C9F113C5A93C00059F09 /* SignatureViewController.xib */; };
 		E14E7D3313C466CB00F519C0 /* PolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D3113C466CB00F519C0 /* PolicyViewController.m */; };
 		E14E7D3413C466CB00F519C0 /* PolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E7D3213C466CB00F519C0 /* PolicyViewController.xib */; };
 		E14E7D3813C4677600F519C0 /* PreBookedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E7D3613C4677600F519C0 /* PreBookedViewController.m */; };
@@ -49,6 +51,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E121C9EF13C5A93C00059F09 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		E121C9F013C5A93C00059F09 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		E121C9F113C5A93C00059F09 /* SignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignatureViewController.xib; sourceTree = "<group>"; };
 		E14E7D3013C466CB00F519C0 /* PolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyViewController.h; sourceTree = "<group>"; };
 		E14E7D3113C466CB00F519C0 /* PolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyViewController.m; sourceTree = "<group>"; };
 		E14E7D3213C466CB00F519C0 /* PolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolicyViewController.xib; sourceTree = "<group>"; };
@@ -136,6 +141,9 @@
 				E14E7D3F13C475D600F519C0 /* ThankYoucontroller.h */,
 				E14E7D4013C475D600F519C0 /* ThankYoucontroller.m */,
 				E14E7D4113C475D600F519C0 /* ThankYoucontroller.xib */,
+				E121C9EF13C5A93C00059F09 /* SignatureViewController.h */,
+				E121C9F013C5A93C00059F09 /* SignatureViewController.m */,
+				E121C9F113C5A93C00059F09 /* SignatureViewController.xib */,
 			);
 			name = VisitorSignIn;
 			sourceTree = "<group>";
@@ -315,6 +323,7 @@
 				E14E7D4313C475D600F519C0 /* ThankYoucontroller.xib in Resources */,
 				E14E7D4513C4B14500F519C0 /* whiteButton.png in Resources */,
 				E14E7D4713C4B8C500F519C0 /* 53-house.png in Resources */,
+				E121C9F313C5A93C00059F09 /* SignatureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +347,7 @@
 				E14E7D3813C4677600F519C0 /* PreBookedViewController.m in Sources */,
 				E14E7D3D13C4679E00F519C0 /* VisitorInfoViewController.m in Sources */,
 				E14E7D4213C475D600F519C0 /* ThankYoucontroller.m in Sources */,
+				E121C9F213C5A93C00059F09 /* SignatureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

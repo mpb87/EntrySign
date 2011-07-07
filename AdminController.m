@@ -60,7 +60,7 @@
 - (void) splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem{
     
     //remove the toolbar
-    //[toolBar removeFromSuperview];
+    [toolBar removeFromSuperview];
     
 }
 

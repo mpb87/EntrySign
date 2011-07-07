@@ -10,7 +10,9 @@
 #import "VisitorsListController.h"
 #import "DetailsViewController.h"
 #import "PrebookedController.h"
+#import "EntrySignViewController.h"
 
+#import <QuartzCore/QuartzCore.h>
 
 @implementation MasterViewController
 @synthesize options;
@@ -63,7 +65,7 @@
     
     self.tableView.backgroundColor = [UIColor clearColor];
     self.view.backgroundColor = [UIColor lightGrayColor];
-    NSLog(@"test");
+    
 
 }
 
@@ -211,6 +213,26 @@
             
             [preBooked release];
         }
+    else if (indexPath.row == 6)
+    {
+        EntrySignViewController *homeController = [[EntrySignViewController alloc] initWithNibName:@"EntrySignViewController" bundle:[NSBundle mainBundle]];
+        
+        UIWindow *window = [UIApplication sharedApplication].keyWindow;
+        window.rootViewController = homeController;
+        [homeController release];
+        
+        
+        //animation
+        CATransition *animationHome = [CATransition animation];
+        [animationHome setDuration:0.5];
+        [animationHome setType:kCATransitionPush];
+        [animationHome setSubtype:kCATransitionFromLeft];
+        [animationHome setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+        
+        [[window layer] addAnimation:animationHome forKey:@"homeAnimation"];
+        
+
+    }
     
     
     // Navigation logic may go here. Create and push another view controller.

@@ -49,7 +49,23 @@
     CATransition *animationPrebooked = [CATransition animation];
     [animationPrebooked setDuration:0.5];
     [animationPrebooked setType:kCATransitionPush];
-    [animationPrebooked setSubtype:kCATransitionFromBottom];
+    
+    if ([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeLeft) {
+        [animationPrebooked setSubtype:kCATransitionFromTop];
+    } else if ([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight) {
+        [animationPrebooked setSubtype:kCATransitionFromBottom];
+    }
+    else if ([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait){
+        [animationPrebooked setSubtype:kCATransitionFromRight];
+    }
+    else
+    {
+        [animationPrebooked setSubtype:kCATransitionFromBottom];
+    }
+
+  
+    
+    
     [animationPrebooked setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
     
     [[window layer] addAnimation:animationPrebooked forKey:@"prebookedAnimation"];
@@ -104,7 +120,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+	//return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    return YES;
 }
 
 @end

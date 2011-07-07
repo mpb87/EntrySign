@@ -8,7 +8,7 @@
 
 #import "VisitorInfoViewController.h"
 #import "EntrySignViewController.h"
-#import "ThankYoucontroller.h"
+#import "SignatureViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 
@@ -91,21 +91,21 @@
             if([xmlData writeToFile:plistPath atomically:YES]){
                 NSLog(@"SUCCESS");
                 
-                ThankYoucontroller *thankyouController = [[ThankYoucontroller alloc] initWithNibName:@"ThankYoucontroller" bundle:[NSBundle mainBundle]];
+                SignatureViewController *signatureController = [[SignatureViewController alloc] initWithNibName:@"SignatureViewController" bundle:[NSBundle mainBundle]];
                 
                 UIWindow *window = [UIApplication sharedApplication].keyWindow;
-                window.rootViewController = thankyouController;
-                [thankyouController release];
+                window.rootViewController = signatureController;
+                [signatureController release];
                 
                 
                 //animation
-                CATransition *animationThankyou = [CATransition animation];
-                [animationThankyou setDuration:0.5];
-                [animationThankyou setType:kCATransitionPush];
-                [animationThankyou setSubtype:kCATransitionFromBottom];
-                [animationThankyou setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+                CATransition *animationSignature = [CATransition animation];
+                [animationSignature setDuration:0.5];
+                [animationSignature setType:kCATransitionPush];
+                [animationSignature setSubtype:kCATransitionFromBottom];
+                [animationSignature setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
                 
-                [[window layer] addAnimation:animationThankyou forKey:@"ThankYouAnimation"];
+                [[window layer] addAnimation:animationSignature forKey:@"SignatureAnimation"];
             }else{
                 NSLog(@"FAIL");
             }
@@ -178,7 +178,8 @@ CATransition *animationHome = [CATransition animation];
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    return YES;
+    //return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 @end
