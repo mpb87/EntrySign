@@ -122,7 +122,7 @@
     if (toInterfaceOrientation == UIInterfaceOrientationPortrait) {
         drawImage.frame = CGRectMake(400, 20, 80, 600);
     } else {
-        drawImage.frame = CGRectMake(220,20,480,350);
+        drawImage.frame = CGRectMake(220,20,480,380);
     }
 }
 

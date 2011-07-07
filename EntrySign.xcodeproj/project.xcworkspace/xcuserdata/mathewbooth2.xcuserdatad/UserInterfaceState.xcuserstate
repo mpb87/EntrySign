@@ -10586,9 +10586,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>331724423.94936901</real>
+		<real>331727730.90789902</real>
 		<string>{3073, 887}</string>
-		<string>{3318, 0}</string>
+		<string>{3806, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18443,10 +18443,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>331724423.95052999</real>
+		<real>331727730.90924299</real>
 		<string>{3073, 887}</string>
-		<string>{3318, 0}</string>
-		<string>-viewDidLoad</string>
+		<string>{3806, 0}</string>
+		<string>-willRotateToInterfaceOrientation:duration:</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
